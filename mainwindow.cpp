@@ -175,3 +175,8 @@ void MainWindow::on_LoadExtrinsic_clicked()
         m_shader->setViewMatrix(transform*pose.inverted());
     }
 }
+
+void MainWindow::on_SaveDepth_clicked()
+{
+    m_shader->saveDepth("../depth.png");
+}

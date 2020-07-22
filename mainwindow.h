@@ -35,6 +35,8 @@ private slots:
 
     void on_LoadExtrinsic_clicked();
 
+    void on_SaveDepth_clicked();
+
 private:
     Ui::MainWindow *ui;
     ShaderWidget* m_shader;
